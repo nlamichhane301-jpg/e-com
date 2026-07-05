@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ShopIt</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="nav">
+      <div class="logo">ShopIt</div>
+      <div class="search">
+        <input placeholder="Search for products, brands, and categories">
+      </div>
+      <div class="icons" aria-label="User navigation">
+        <button class="icon-btn" type="button" aria-label="Favorites">Favorites</button>
+        <button class="icon-btn" type="button" aria-label="Account">Account</button>
+        <div class="cart" aria-label="Shopping cart">
+          <button class="icon-btn" type="button" aria-label="Cart">Cart</button>
+          <div class="cart-count" aria-label="Items in cart">0</div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="hero">
+    <div class="banner">
+      <h1>Welcome to ShopIt</h1>
+      <p>Discover premium products, curated for modern living.</p>
+      <button class="shop-btn" type="button">Browse Collection</button>
+    </div>
+  </section>
+  <section class="section">
+    <h2 class="section-title">Shop by Category</h2>
+    <div class="categories">
+      <div class="category">Electronics</div>
+      <div class="category">Fashion</div>
+      <div class="category">Beauty</div>
+      <div class="category">Home</div>
+      <div class="category">Gaming</div>
+      <div class="category">Books</div>
+      <div class="category">Sports</div>
+      <div class="category">Grocery</div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="flash">
+      <h2 class="section-title">Limited-Time Offers</h2>
+      <p>Save big on select items before time runs out.</p>
+      <div class="timer" id="timer">03:00:00</div>
+    </div>
+  </section>
+  <section class="section">
+    <h2 class="section-title">Trending Products</h2>
+    <div class="products" id="products"></div>
+  </section>
+  <footer>&copy; 2026 ShopIt. Designed for seamless, modern shopping.</footer>
+  <script src="script.js" defer></script>
+</body>
+</html>
